@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle android-adb",
+        "command": "android-adb:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "android-adb",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "android-adb:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
