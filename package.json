@@ -1,12 +1,11 @@
 {
   "name": "android-adb",
   "main": "./lib/android-adb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "android-adb:toggle"
   },
   "repository": "https://github.com/atom/android-adb",
   "license": "MIT",
@@ -14,5 +13,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "adbkit": "^2.4.1",
+    "atom-space-pen-views": "^2.0.3",
+    "term.js": "https://github.com/chjj/term.js/archive/v0.0.7.tar.gz"
   }
 }

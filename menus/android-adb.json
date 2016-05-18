@@ -1,22 +1,14 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle android-adb",
-        "command": "android-adb:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "android-adb",
+          "label": "ADB",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "android-adb:toggle"
+              "label": "Logcat",
+              "command": "android-adb:logcat"
             }
           ]
         }
